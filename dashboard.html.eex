@@ -1,0 +1,73 @@
+
+	<div class="dashboardPart"> 
+			<div align="left">
+					<a href="http://localhost:4000/" id="btnLogOut" style="text-align:right">Log Out</a> 
+			</div> 
+
+		
+			
+		
+
+			
+				<div>
+					<h3 style="display: inline-block;font-weight: 700">Post Tweets!</h3>
+					<i><center/><input id="tweetContent" size=83 placeholder="What's happening?" type="text"></i>
+					<button id="btnTweet">Tweet</button></label>
+				</div>
+		
+
+				<div>
+					<h3 style="display: inline-block;font-weight: 700">Live Tweets!</h3>
+					<div id='tweet-list' style="background: white;"></div>
+					<input type="submit" id="btnRetweet" value="Retweet!"></br>					
+				</div>
+			
+
+					
+				<div>
+					<h3 style="display: inline-block;font-weight: 700">Follow!</h3></br>
+					<input id="username2" placeholder = "Username" style="display: inline-block;width: 300px;"type="text">
+					<button id="btnFollow">subscribe</button>
+					
+					<div>
+					<i><div id="followsArea" class ='mentions-list' style="width: 380px;margin-bottom: 0px;margin-top: 0px;height:120px;background-color:white;" >My Subscriptions!!</div></i>
+					</div>
+				</div>
+					
+				<div>
+					<label><h3 style="display: inline-block;font-weight: 700">Query Your Tweets! </h3>
+					</br>
+					<button id="btnQueryTweets">Query Tweets</button>
+					</br></br>
+					</label>
+
+					<div>
+					<i><div id="queryArea" class ='mentions-list' style = "width: 310px;margin-bottom: 0px;margin-top: 0px;height:120px;background-color:white;" >What is my news feed? </div></i>
+					</div>
+				</div>
+
+		
+				<div>
+					<div style="text-align: left">
+						<label><h3 style="display: inline-block;font-weight: 700">Search tweet by Hashtag</h3>
+								<input id="hashtag" style="width:650px" placeholder = "#Hashtags" type="text">
+								</br></br>
+								<button id="btnhashtag">Search!</button></label>
+					</div>
+					<i><div id= "hashtagArea" style="width: 710px;margin-bottom: 0px;margin-top: 0px;height:120px;background-color:white;" class='mentions-list'>Hashtags</div></i>
+				</div>
+				</br>
+
+
+				<div>
+					<div style="position: relative;text-align: left;">
+						<label><h3 style="display: inline-block;font-weight: 700">My Mentions!</h3></br>
+							<button id="btnMyMentions">Get my Mentions</button>
+							</br>
+						</label>
+					</div>
+					<i><div id="mentionsArea" class ='mentions-list' style="width: 710px;margin-bottom: 0px;margin-top: 0px;height:120px;background-color:white;" >My Mentions!</div>
+
+				</div>
+		</div>
+</div>

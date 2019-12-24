@@ -1,0 +1,28 @@
+
+	
+
+<div>
+		<div>
+			<div>
+				<h3><b/>Sign Up to the Twitter!</h3>
+				<p>
+						<input id="new_username" placeholder = "Username" type="text"><br/>
+						<br/><input id= "new_password" placeholder = "*******" type="password"><br/>
+						<br/><input id="signup" type="submit" value="Create Account">
+				</p>
+				
+			</div>
+		</div>
+	
+	</div>
+	</br>
+
+<div>
+			<h3><b/>Sign In here!</h3>
+			<div id='unlog' class='row'></div>
+				<input id="username" placeholder = "Username" type="text"><br/>
+				<br/><input id="password" placeholder = "*******" type="password"><br/>
+				<br/><button id="signin">LogIn</button>
+			
+		</div>
+
